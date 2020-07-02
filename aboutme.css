@@ -63,14 +63,13 @@ body{
 
 .pic p{
 	position: absolute;
-	left: 420px;
+	left: 460px;
 	top: 250px;
 }
 
 .why h1{
 	position: absolute;
 	font-size: 45px;
-	font-family: sans-serif;
 	top: 600px;
 	left: 100px;
 }
@@ -91,6 +90,64 @@ body{
 
 .school p{
 	position: absolute;
-	left: 420px;
+	left: 460px;
 	top: 450px;
+}
+
+.school img{ 
+	position: absolute;
+	width: 180px;
+	height: 120px;
+	top: 1100px;
+	left: 530px;
+}
+
+.hobbies h1{
+	position: absolute;
+	left: 600px;
+	top: 600px;
+	font-size: 45px;
+}
+
+.hobbies p{
+	position: absolute;
+	top: 680px;
+	left: 600px;
+}
+
+.hobbies img{
+	position: absolute;
+	width: 200px;
+	height: 130px;
+	top: 1100px;
+	left: 900px;
+}
+
+.fun h1{
+	position: absolute;
+	top: 920px;
+	left: 560px;
+	font-size: 45px;
+}
+
+.fun p{
+	position: absolute;
+	top: 980px;
+	left: 350px;
+}
+
+.fun img{
+	position: absolute;
+	width: 200px;
+	height: 120px;
+	top: 1100px;
+	left: 100px;
+}
+
+.inspire img{
+	position: absolute;
+	width: 250px;
+	height: 400px;
+	top: 170px;
+	left: 1000px;
 }

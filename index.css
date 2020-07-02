@@ -84,13 +84,27 @@ body{
 .paint h1{
 	color: white;
 	position: relative;
-	margin-left: 380px;
-	margin-top: 80px;
+	margin-left: 60px;
+	margin-top: 87px;
 }
 
 .paint p{
 	color: white;
 	position: relative;
-	margin-left: 380px;
+	margin-left: 60px;
 	font-size: 20px;
+}
+
+.artist h1{
+	color: white;
+	position: relative;
+	margin-left: 785px;
+	margin-top: -84px;
+}
+
+.artist p{
+	color: white;
+	position: relative;
+	margin-left: 785px;
+	font-size: 21px;
 }
