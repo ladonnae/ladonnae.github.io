@@ -48,7 +48,7 @@ body{
 .pics h1{
 	position: absolute;
 	left: 580px;
-	top: 85px;
+	top: 80px;
 	font-size: 50px;
 }
 
@@ -67,14 +67,6 @@ body{
 	font-family: sans-serif;
 	left: 170px;
 	text-align: center;
-}
-
-.swipe img{
-	position: absolute;
-	width: 60px;
-	height: 50px;
-	left: 640px;
-	top: 475px;
 }
 
 .motto img{
