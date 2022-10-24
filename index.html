@@ -1,42 +1,78 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Home</title>
-		<link rel="stylesheet" href="index.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		
-		<meta name="viewpoint" content="width=device-width,initial scale=1">
-		<meta charset="UTF-8">
-	</head>
-	<body>
-	<div id="wholepage">
-		
-		<div class="menu-bar">
-			<ul>
-				<li class="active"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-				<li><a href="art.html"><i class="fa fa-angellist"></i>Gallery</a></li>
-				<li><a href="aboutme.html"><i class="fa fa-user"></i>About Me</a></i></li>
-				<li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></i></li>
-			</ul>
-		</div>
-	
-		<div class="curved">
-			<h1> Art Portfolio </h1>
-			<p><i>Change The Way You View<br><b>ART<b></i></p>
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#E02740" fill-opacity="1" d="M0,160L18.5,133.3C36.9,107,74,53,111,64C147.7,75,185,149,222,186.7C258.5,224,295,224,332,202.7C369.2,181,406,139,443,138.7C480,139,517,181,554,176C590.8,171,628,117,665,90.7C701.5,64,738,64,775,101.3C812.3,139,849,213,886,218.7C923.1,224,960,160,997,144C1033.8,128,1071,160,1108,192C1144.6,224,1182,256,1218,224C1255.4,192,1292,96,1329,96C1366.2,96,1403,192,1422,240L1440,288L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
-	
-		</div>
-		
-		<div class="paint">
-			<h1>art //</h1>
-			<p>1. the expression or application of human creative skill<br> and imagination, typically in a visual form such as paint-<br>ing or sculpture, producing works to be appreciated<br> primarily for their beauty or emotional power.</p>
-			<img src="images/splat.png">
-		</div>
-		
-		<div class="artist">
-			<h1>artist //</h1>
-			<p>1. an artist is a person who is engaged in<br> an activity related to creating art, practic-<br>ing the arts, or demonstrating an art. </p>
-		</div>
-		
-	</div>
-	</body>
+    <head>
+        <title>How To Draw</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </head>
+    <body>  
+        <div id="main">
+            <!--NAVIGATION BAR-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="tutorial.html">Tutorial</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                </ul>
+            </nav>
+
+            <!--ART ANIMATION-->
+            <div class="art">
+                <div class="static-text">Art Portfolio</div>
+                <!--
+                <ul class="dynamic-text">
+                    <li><span>Portfolio</span></li>
+                    <li><span>Work</span></li>
+                    <li><span>Gallery</span></li>
+                </ul>
+                -->
+            </div>
+            
+        </div>
+
+         <!--ART CARDS-->
+         <div class="learn">
+            <h1>Learn More About...</h1>
+         </div>
+
+         <section class="container">
+            <div class="card">
+                <div class="card-image digital-art"></div>
+                <h2>Digital Art</h2>
+                <p>Digital art is an artistic work or practice that uses digital technology as part of the creative or presentation process.  Since the 1960s, various names have been used to describe the process, including computer art and multimedia art.</p>
+                <a href="https://feltmagnet.com/drawing/Digital-Art-A-Revolutionary-Form-of-Art" target="_blank"> READ MORE</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image drawing"></div>
+                <h2>Drawing</h2>
+                <p>A classic drawing is an artwork created from lines or areas of tone created with a drawing instrument such as a graphite pencil, charcoal, colored pencil, silverpoint, eraser, dry pastel, or another dry medium on a piece of paper.</p>
+                <a href="https://www.interaliamag.org/articles/anna-ursyn-drawing-way-thinking/" target="_blank"> READ MORE</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image painting"></div>
+                <h2>Painting</h2>
+                <p>Painting is the practice of applying paint, pigment, color or other medium to a solid surface. The medium is commonly applied to the base with a brush, but other implements, such as knives, sponges, and airbrushes, can be used.</p>
+                <a href="https://drawpaintacademy.com/painting-for-beginners/" target="_blank"> READ MORE</a>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <footer>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Have questions? Contact Me.</p>
+                <ul class="social">
+                    <li><a href="https://www.instagram.com/__ladonnnaaa__7/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ladonna-emeli-657781198/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022. designed by <span>nethunt</span></p>
+            </div>
+        </footer>
+
+    </body>
 </html>
